@@ -114,6 +114,11 @@ body{
     left: 0;
     background-color: #2D9CDB;
     border-radius: 12px;
+    transition: 8s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.progress:hover{
+    width:50%
 }
 .js-progress{
     width: 70%;
@@ -275,4 +280,28 @@ body{
     .name{
         font-size: 1.5rem;
     }
+}
+.name:hover{
+    color: #2D9CDB;
+}
+.career:hover{
+    color: chocolate;
+}
+.main-title:hover{
+    color: darkred;
+}
+.fa-map-marker:hover{
+    color: brown;
+}
+.right-title:hover{
+    color: crimson;
+   
+}
+.para:hover{
+    color: darkcyan;
+}
+.tl-title:hover{
+    color: darkgreen;
+
+
 }
